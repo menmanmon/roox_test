@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.sortingContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #BDBDBD;
+  min-width: 152px;
+  min-height: 100vh;
+}
+
+.sortingMain {
+  max-width: 120px;
+  margin-top: 35px;
+  margin-left: 20px;
+}
+
+.sortingH4 {
+  font-size: 12px;
+  margin-bottom: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.blueBtn {
+  border-radius: 5px;
+  background-color: #4B51EF;
+  color: #fff;
+  padding: 5px 15px;
+  border: 0;
+  text-align: start;
+  cursor: pointer;
+}
+
+.blueBtn:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.usersListContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.usersListMain {
+  max-width: 422px;
+  margin: 19px 62px 25px 34px;
+}
+
+.headingH3 {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.usersItemCart {
+  max-width: 420px;
+  max-height: 72px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  background-color: #F3F3F3;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.usersItemCartText {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #000000;
+}
+.usersItemCartText:not(:last-child){
+  margin-bottom: 7px;
+}
+
+.usersItemCartSpan {
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 13px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #A3A3A3;
+}
+
+.usersItemCartLeft {
+  display: flex;
+  flex-direction: column;
+  white-space: nowrap;
+}
+
+.usersItemCartRight {
+  display: flex;
+  align-items: flex-end;
+}
+
+.usersItemMore {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #4B51EF;
+  cursor: pointer;
+}
+
+.usersListCount {
+  font-family: Roboto;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: right;
+}
+
+.usersListCountContainer {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.usersItemContainer:not(:last-child) {
+  margin-bottom: 22px;
+}
+
+.userItem {
+  margin-top: 17px;
+}
+
+.userProfileContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.userProfileContainerFlex {
+  margin: 13px 41px 0px 36px;
+  max-width: 440px;
+}
+
+.userProfileTop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.userProfileMainContainer {
+  border: 1px solid #F3F3F3;
+  box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+.userProfileForm {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 6px 19px 12px;
+}
+
+.labelInput {
+  font-family: Roboto;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 9px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 3px;
+}
+
+.inputBox {
+  max-width: 211px;
+  height: 22px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  outline: none;
+}
+
+.inputBoxNotActive {
+  color: #C4C4C4;
+}
+
+.inputBoxInvalid {
+  border: 1px solid #D91313;
+}
+
+.inputBox:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.inputBoxComment {
+  max-width: 420px;
+  height: 55px;
+  background: #FFFFFF;
+  border: 1px solid #D8D8D8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  resize: none;
+}
+
+.greenBtn {
+  border-radius: 5px;
+  background-color: #52CF4F;
+  color: #fff;
+  padding: 5px 15px;
+  border: 0;
+  text-align: start;
+  cursor: pointer;
+}
+
+.grayBtn {
+  border-radius: 5px;
+  background-color: #AFAFAF;
+  color: #fff;
+  padding: 5px 15px;
+  border: 0;
+  text-align: start;
+  cursor:default;
+}
+
+.btnBlock {
+  display: flex;
+  justify-content: flex-end;
+}
